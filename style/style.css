@@ -1,0 +1,177 @@
+/* GENERAL STYLES */
+div .card, .btn {
+  box-shadow: 5px 10px 30px rgba(146, 146, 146, 0.493);
+}
+
+.btn:active {
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+body {
+    background: #ecf0f1;
+    font-family: "Roboto", sans-serif;
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu-hover:hover {
+    transition: 300ms color ;
+    border-bottom: 0.5px solid white ;
+}
+
+.btn-primary {
+    background-color: #0006ff;
+}
+
+.text-muted {
+    color: #FFF!important;
+}
+
+/* span */
+
+span a {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+
+span a:hover {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/* ADVERTISING */
+
+.add-top {
+    background-color: rgb(209, 209, 209);
+}
+
+/* EVENT-BREAKING NEWS */
+
+.EVENT-NEWS {
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.EVENT-NEWS h1 {   
+    color: #000;
+}
+
+.BREAKING-NEWS {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.BREAKING-NEWS span {
+    color:rgb(29, 29, 255) !important; 
+}
+
+
+/* NAVBAR */
+
+.navbar-1 {
+    background-color: #000 !important;
+}
+
+.navbar-2 {
+    background-color: #fff !important;
+}
+
+.navbar {
+    min-height: 58px;
+}
+
+/* NUMBER EMAIL */
+
+#number-email {
+    color: #fff !important;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+#number-email:hover {
+    color:rgb(29, 29, 255) !important; 
+    transition: 300ms color;
+}
+
+#name-logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Icons */
+
+.fab {
+    color: #fff;
+}
+
+.fa-facebook-square:hover {
+    color:#3B5998; 
+    transition: 250ms color;
+}
+
+.fa-twitter-square:hover {
+    color:#1DA1F2; 
+    transition:250ms  color;
+}
+
+.fa-pinterest:hover {
+    color:#BD081C;
+    transition: 250ms color;
+}
+
+.fa-youtube:hover {
+    color:red;
+    transition: 250ms color;
+}
+
+.fa-google-plus:hover {
+    color:#DB4437;
+    transition: 250ms color;
+}
+
+.fa-instagram:hover {
+    color: #FF2EFF;
+    transition: 250ms color;
+}
+
+/* CARDS */
+
+.card-footer {
+    background-color: #000;
+}
+
+.card-img-overlay {
+    top: auto !important;
+}
+
+.card {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  transition: 1.5s;
+}
+
+.card img {
+  max-width: 100%;
+  transition: all 1s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.card:hover img {
+  transform: scale(1.1);
+  filter: brightness(70%);
+}
